@@ -9,10 +9,16 @@
   margin: 0;
   
 
+
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+svg{
+    vertical-align: middle;
+    /* height: 20px; */
 }
 
 
@@ -60,7 +66,7 @@ h1{
 }
 
 .page{
-    width: 37%;
+    width: 36%;
     height: 100%;
 }
 
@@ -84,7 +90,8 @@ h1{
     border: none;
     border-radius: 15px;
     font-size: 16px;
-   
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 .header{
@@ -96,7 +103,7 @@ h1{
 
 
 .form-set{
-    height: 50%;
+    height: 58%;
     width: 100%;
     border-top:2px;
     border-top: solid 2px rgb(229 231 235 ); 
@@ -111,5 +118,53 @@ h1{
     border: none;
     background:  rgb(229 231 235 );
     border-radius: 15px;
+    text-indent: 20px;
+    font-size: 15px;
+    outline-color: #3b82f6;
 }
 
+
+
+.form-set form{
+    width: 100%;
+    height: 100%;
+}
+
+.text-div{
+    height: 9%;
+    margin-top: 6%;
+    font-size: 18px;
+}
+
+.log-btn{
+    width: 100%;
+    height: 45px;
+    margin-top: 9%;
+    border-radius: 15px;
+    border: none;
+    background: rgb(134, 172, 248);
+    color: #fff;
+    font-size: 16px;
+}
+
+.link-text{
+    color: rgb(29 78 216 );
+    text-decoration: none;
+}
+
+.f-pass{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.f-pass a{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.hover-gray:hover{
+   background:rgb(218, 220, 225);
+   transition: 0.2s ease-in-out;
+}
